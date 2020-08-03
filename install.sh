@@ -4,19 +4,19 @@
 # SYSTEM GLOBAL CONFIGURATION
 ##########################################################################################################
 
-LOCALE="de_DE.UTF-8"
-MIRROR="Germany"
-LANG="de_DE.UTF-8"
-KEYMAP="de-latin1"
-LOCALTIME="/usr/share/zoneinfo/Europe/Berlin"
+LOCALE="en_US.UTF-8"
+MIRROR="Canada"
+LANG="en_US.UTF-8"
+KEYMAP="us"
+LOCALTIME="/usr/share/zoneinfo/America/Vancouver"
 INSTALL_PATH="/mnt/install"
 PARTLABEL_BOOT="boot"
 PARTLABEL_ROOT="root"
-CRYPT_DEV_LABEL="secure"
-HOSTNAME="archlinux"
-US_KEYBOARD_FOR_ENCRYPTION=0
+CRYPT_DEV_LABEL="system"
+HOSTNAME="archbtr"
+US_KEYBOARD_FOR_ENCRYPTION=1
 CREATE_INSTALL_LOG=0
-SSH_SERVER=1
+SSH_SERVER=0
 
 
 ##########################################################################################################
